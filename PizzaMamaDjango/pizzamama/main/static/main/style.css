@@ -1,0 +1,34 @@
+body{
+    background:url("images/main_background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: arial;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#small_logo{
+    margin-top:20%;
+}
+
+.btn{
+    display:block;
+    padding:16px 32px;
+    margin-top:40px;
+    background:  #DD7835;
+    color: white;
+    font-size: 20px;
+    font-weight:550;
+    text-transform: uppercase;
+    letter-spacing:.02px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.25s ease-in-out;
+}
+
+.btn:hover{
+   background-color: #DD7855;
+   color:black;
+}
